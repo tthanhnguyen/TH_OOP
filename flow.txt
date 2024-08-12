@@ -1,0 +1,48 @@
+Quản lý khách sạn (quản lý phòng + quản lý khách + quản lý hóa đơn)
+
+Quản lý phòng (ROOM):
+	+ SingleRoom
+	+ DoubleRoom
+	+ BusinessRoom
+	+ gia phong	
+	+hiển thị danh sách phòng
+	+tìm kiếm thông tin phòng theo type
+
+Quản lý khách (Guest)
+	+RegularGuest
+	+VIPGuest
+	+ưu đãi khách hàng
+	+hiển thị danh sách khách hàng
+	+cập nhật thông tin khách hàng bằng việc xuất nhập file
+	+xóa khách hàng
+
+Quản lý hóa đơn (Bill)
+	+RoomBill
+	+xuất hóa đơn của khách hàng a,b,c,...
+
+10
+3
+5
+2
+id	typeroom	        status	nameguest	
+1	SingleRoom     available		
+2	SingleRoom    unavailable	A
+3	SingleRoom    unavailable	B
+4	DoubleRoom  unavailable	E
+5	DoubleRoom   available	                                 			    
+6	DoubleRoom   available	                                     
+7	DoubleRoom   available		                                  			  
+8	DoubleRoom   available	                                   			 
+9	BusinessRoom unavailable	C		
+10	BusinessRoom unavailable	D		
+
+
+5
+3
+2
+cmnd	name 	phonenum	mail	typeguest
+1		A		1234		a		RegularGuest
+2		B		1234		a		RegularGuest
+3		c		1234		a		RegularGuest
+4		D		1234		A		VIPGuest
+5		E		1234		A		VIPGuest
